@@ -88,7 +88,7 @@ int print_percent(va_list types, char buffer[], int flags, int width, int precis
 	UNUSED(buffer);
 	UNUSED(flags);
 	UNUSED(width);
-	UNUSED(precisin);
+	UNUSED(precision);
 	UNUSED(size);
 	return(write(1,"%%",1));
 }
